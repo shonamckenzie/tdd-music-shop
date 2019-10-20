@@ -17,4 +17,8 @@ public class Accessory implements ISell {
     public double calculateMarkup() {
         return this.sellPrice - this.buyPrice;
     }
+
+    public double getBuyPrice() {
+        return this.buyPrice;
+    }
 }
