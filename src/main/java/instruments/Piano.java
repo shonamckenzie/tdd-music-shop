@@ -2,9 +2,11 @@ package instruments;
 
 public class Piano extends Instrument{
 
-    int numOfOctaves;
+    private int numOfOctaves;
 
-    public Piano(String material, String colour, InstrumentType type) {
-        super(material, colour, type);
+
+    public Piano(String material, String colour, InstrumentType type, double buyPrice, double sellPrice) {
+        super(material, colour, type, buyPrice, sellPrice);
+        this.numOfOctaves = 7;
     }
 }
