@@ -18,9 +18,9 @@ public class ShopTest {
     @Before
     public void before(){
         shop = new Shop();
-        guitar = new Guitar("wood", "red", InstrumentType.string, 200, 300);
-        trumpet = new Trumpet("brass", "gold", InstrumentType.brass, 400, 650);
-        piano = new Piano("wood", "black", InstrumentType.keyboard, 800, 1350);
+        guitar = new Guitar("wood", "red", InstrumentType.string, 200, 300, 6);
+        trumpet = new Trumpet("brass", "gold", InstrumentType.brass, 400, 650, 3);
+        piano = new Piano("wood", "black", InstrumentType.keyboard, 800, 1350, 7);
         accessory = new Accessory("guitar strings", 20, 35);
     }
 
