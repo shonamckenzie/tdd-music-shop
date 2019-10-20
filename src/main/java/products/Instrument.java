@@ -1,4 +1,4 @@
-package instruments;
+package products;
 
 import behaviours.IPlay;
 import behaviours.ISell;

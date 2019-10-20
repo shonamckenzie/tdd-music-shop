@@ -1,5 +1,5 @@
-import instruments.InstrumentType;
-import instruments.Trumpet;
+import products.InstrumentType;
+import products.Trumpet;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -37,6 +37,12 @@ public class TrumpetTest {
     @Test
     public void hasSellPrice() {
         assertEquals(650, trumpet.getSellPrice(), 0.01);
+    }
+
+    @Test
+    public void canChangeSellPrice(){
+        trumpet.setSellPrice(700);
+        assertEquals(700, trumpet.getSellPrice(), 0.01);
     }
 
     @Test

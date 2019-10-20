@@ -1,4 +1,4 @@
-package instruments;
+package products;
 
 public class Trumpet extends Instrument{
 

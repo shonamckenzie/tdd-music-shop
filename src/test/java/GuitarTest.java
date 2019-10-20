@@ -1,5 +1,5 @@
-import instruments.Guitar;
-import instruments.InstrumentType;
+import products.Guitar;
+import products.InstrumentType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -37,6 +37,12 @@ public class GuitarTest {
     @Test
     public void hasSellPrice() {
         assertEquals(350, guitar.getSellPrice(), 0.01);
+    }
+
+    @Test
+    public void canChangeSellPrice(){
+        guitar.setSellPrice(400);
+        assertEquals(400, guitar.getSellPrice(), 0.01);
     }
 
     @Test
