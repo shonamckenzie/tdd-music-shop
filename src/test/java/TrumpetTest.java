@@ -43,4 +43,9 @@ public class TrumpetTest {
     public void canPlaySound(){
         assertEquals("buzzz", trumpet.play());
     }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(150, trumpet.calculateMarkup(), 0.01);
+    }
 }
