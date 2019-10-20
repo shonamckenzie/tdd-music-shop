@@ -9,4 +9,8 @@ public class Piano extends Instrument{
         super(material, colour, type, buyPrice, sellPrice);
         this.numOfOctaves = 7;
     }
+
+    public String play() {
+        return "plink plonk";
+    }
 }

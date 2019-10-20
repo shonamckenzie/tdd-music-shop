@@ -9,4 +9,8 @@ public class Guitar extends Instrument{
         super(material, colour, type, buyPrice, sellPrice);
         this.numOfStrings = 6;
     }
+
+    public String play() {
+        return "twang";
+    }
 }
